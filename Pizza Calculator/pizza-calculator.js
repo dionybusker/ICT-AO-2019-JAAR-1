@@ -18,9 +18,9 @@ const priceLarge = 12; // dit is de prijs voor een Large pizza
 
 // na de prompts komt er op het scherm de volgende bestelling te staan (met de eigen ingevulde gegevens)
 document.write("Uw bestelling is als volgt: " + linebreak);
-document.write(pizzaSmall + "×" + " " + "Small pizza" + " " + "(€ " + priceSmall + " p/s)" + linebreak); // hier wordt de hoeveelheid aan Small pizza's weergegeven, de prijs voor een enkele pizza staat er achter
-document.write(pizzaMedium + "×" + " " + "Medium pizza" + " " + "(€ " + priceMedium + " p/s)" + linebreak); // hier wordt de hoeveelheid aan Medium pizza's weergegeven, de prijs voor een enkele pizza staat er achter
-document.write(pizzaLarge + "×" + " " + "Large pizza" + " " + "(€ " + priceLarge + " p/s)" + linebreak); // hier wordt de hoeveelheid aan Large pizza's weergegeven, de prijs voor een enkele pizza staat er achter
+document.write(pizzaSmall + "×" + " " + "Small pizza" + " " + "(€ " + priceSmall + " p/s, totaal € " + (pizzaSmall * priceSmall) + ")" + linebreak); // hier wordt de hoeveelheid aan Small pizza's weergegeven, de prijs voor een enkele pizza en het totaal staan er achter
+document.write(pizzaMedium + "×" + " " + "Medium pizza" + " " + "(€ " + priceMedium + " p/s, totaal € " + (pizzaMedium * priceMedium) + ")" + linebreak); // hier wordt de hoeveelheid aan Medium pizza's weergegeven, de prijs voor een enkele pizza en het totaal staan er achter
+document.write(pizzaLarge + "×" + " " + "Large pizza" + " " + "(€ " + priceLarge + " p/s, totaal € " + (pizzaLarge * priceLarge) + ")" + linebreak); // hier wordt de hoeveelheid aan Large pizza's weergegeven, de prijs voor een enkele pizza en het totaal staan er achter
 
 var totalPrice = (pizzaSmall*priceSmall) + (pizzaMedium*priceMedium) + (pizzaLarge*priceLarge); // hier wordt de uiteindelijke totaalprijs van alle pizza's verrekend
 
