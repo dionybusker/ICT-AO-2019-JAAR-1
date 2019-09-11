@@ -6,12 +6,12 @@
 
 var linebreak = "<br>" // de linebreak zorgt voor een nieuwe regel
 
+// diverse pizza formaten waar uit gekozen kan worden
 var pizzaSmall = prompt("Hoeveel Small pizza's wenst u?"); // hier wordt een getal ingevuld worden, wordt er 2 ingevuld dan worden er op het eind 2 pizza's verrekend
-
 var pizzaMedium = prompt("Hoeveel Medium pizza's wenst u?"); // hier wordt een getal ingevuld worden, wordt er 2 ingevuld dan worden er op het eind 2 pizza's verrekend
-
 var pizzaLarge = prompt("Hoeveel Large pizza's wenst u?"); // hier wordt een getal ingevuld worden, wordt er 2 ingevuld dan worden er op het eind 2 pizza's verrekend
 
+// standaard prijzen voor de diverse formaten pizza's
 const priceSmall = 8; // dit is de prijs voor een Small pizza
 const priceMedium = 10; // dit is de prijs voor een Medium pizza
 const priceLarge = 12; // dit is de prijs voor een Large pizza
