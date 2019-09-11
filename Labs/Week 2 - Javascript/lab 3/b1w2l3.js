@@ -63,22 +63,30 @@
 // // stap 4: - 12
 
 
-var begin = prompt("Voer een getal in: ");
-var begingetal = parseInt(begin);
+// var begin = prompt("Voer een getal in: ");
+// var begingetal = parseInt(begin);
 
-alert("Begin getal: " + begingetal);
+// alert("Begin getal: " + begingetal);
 
-var result1 = begingetal + 6;
-alert(begingetal + " + " + 6 + " = " + result1);
+// var result1 = begingetal + 6;
+// alert(begingetal + " + " + 6 + " = " + result1);
 
-var result2 = result1 * 10;
-alert(result1 + " * " + 10 + " = " + result2);
+// var result2 = result1 * 10;
+// alert(result1 + " * " + 10 + " = " + result2);
 
-var result3 = result2 / 5;
-alert(result2 + " / " + 5 + " = " + result3);
+// var result3 = result2 / 5;
+// alert(result2 + " / " + 5 + " = " + result3);
 
-var result4 = result3 - 12;
-alert(result3 + " - " + 12 + " = " + result4);
+// var result4 = result3 - 12;
+// alert(result3 + " - " + 12 + " = " + result4);
 
-alert("Eind getal: " + result4);
+// alert("Eind getal: " + result4);
+
+
+// FOR LOOP UITPROBEERSEL
+var i = 1;
+var tafel = prompt("Welke tafel wilt u berekenen");
+for (i == 1; i < 11; i++) {
+    document.write(tafel+"*"+i+"="+(tafel*i)+"<br>"); 
+}
 
