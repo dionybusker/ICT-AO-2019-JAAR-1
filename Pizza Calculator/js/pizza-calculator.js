@@ -10,6 +10,7 @@ var pizzaMedium;
 var pizzaLarge;
 var valid = false; // valid zal standaard false zijn
 
+// er wordt voorkomen dat er geen andere karakters dan cijfers ingevuld kan worden
 while (!valid) {
     pizzaSmall=parseInt(prompt("Hoeveel Small pizza's wenst u?"));
     if (Number.isNaN(pizzaSmall)) {
@@ -19,6 +20,7 @@ while (!valid) {
     }
 }
 
+// er wordt voorkomen dat er geen andere karakters dan cijfers ingevuld kan worden
 valid = false // valid wordt weer veranderd naar false
 while (!valid) {
     pizzaMedium=parseInt(prompt("Hoeveel Medium pizza's wenst u?"));
@@ -29,6 +31,7 @@ while (!valid) {
     }
 }
 
+// er wordt voorkomen dat er geen andere karakters dan cijfers ingevuld kan worden
 valid = false // valid wordt weer veranderd naar false
 while (!valid) {
     pizzaLarge=parseInt(prompt("Hoeveel Large pizza's wenst u?"));
