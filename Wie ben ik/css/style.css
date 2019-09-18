@@ -1,0 +1,31 @@
+/* styling */
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #E8E8E8;
+	position: relative;
+	padding-bottom: 10px;
+	margin: 0;
+	/* min-height: 100%; */
+    margin-bottom: 10px;
+    font-family: Calibri;
+}
+
+main {
+    width: 960px;
+    /* height: 100%; */
+    margin: 0 auto; /* (top bottom) (right left) */
+    background-color: white;
+}
+
+section {
+    padding: 10px 25px 10px 25px;
+}
+
+section ul {
+    list-style-type: square;
+    text-decoration: none;
+}
