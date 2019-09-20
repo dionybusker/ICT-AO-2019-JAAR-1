@@ -1,2 +1,66 @@
-/* styling portfolio */
+/* styling portfolio page */
 
+/* container not done */
+.container {
+    position: relative;
+    width: 95px;
+    height: 110px;
+    display: inline-block;
+    /* float: left; */
+}
+
+.image-link {
+    text-decoration: none;
+}
+
+.container:hover .overlay {
+    opacity: 0.5;
+}
+
+.container img {
+    width: 95px;
+    height: 110px;
+}
+
+/* /container not done */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    width: 95px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFF;
+}
+
+.overlay-text {
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 5px;
+}
+
+/* container done */
+
+.container-done {
+    position: relative;
+    width: 95px;
+    height: 110px;
+    /* float: left; */
+    display: inline-block;
+}
+
+.container-done .overlay {
+    opacity: 0.5;
+}
+
+/* /container done */
