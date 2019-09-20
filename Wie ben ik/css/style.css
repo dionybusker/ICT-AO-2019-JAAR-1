@@ -19,13 +19,37 @@ main {
     /* height: 100%; */
     margin: 0 auto; /* (top bottom) (right left) */
     background-color: white;
+    /* border: 1px solid black; */
 }
 
 section {
-    padding: 10px 25px 10px 25px;
+    padding: 10px 25px; /* (top bottom) (right left) */
+    border-left: 1px dotted #ABABAB;
+    border-right: 1px dotted #ABABAB;
+    border-bottom: 1px dotted #ABABAB;
+    overflow: auto;
 }
 
-section ul {
+section p {
+    width: 650px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+/* section ul {
     list-style-type: square;
     text-decoration: none;
+} */
+
+.logo {
+    margin-bottom: -5px;
+}
+
+
+.personalpicture {
+    float: right;
+    height: 248px;
+    width: 186px;
+    border: 1.5px solid black;
+    margin: 15px 0 15px 15px;
 }
