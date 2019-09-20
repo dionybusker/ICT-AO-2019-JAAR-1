@@ -14,7 +14,7 @@ document.write('<img class="logo" src="img/windowsxp.png" alt="logo">\
         <li><a  href="werk.html">Werk</a></li>\
         <li><a href="vaardigheden.html">Vaardigheden</a></li>\
         <li><a href="ontwikkeling.html">Ontwikkelingen</a></li>\
-        <li><a  href="portfolio.html">Portfolio</a></li>\
+        <li><a  href="project.html">Projecten</a></li>\
         <li style="float: right;"><a href="contact.html">Contact</a></li>\
     </ul>\
     </nav>\
