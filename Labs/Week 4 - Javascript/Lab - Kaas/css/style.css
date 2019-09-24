@@ -1,0 +1,18 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+    background-color: #dedede;
+}
+
+.style {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px dotted #000;
+}
+
+h1 {
+    margin-top: 0;
+}
