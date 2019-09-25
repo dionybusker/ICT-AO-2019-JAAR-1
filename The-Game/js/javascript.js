@@ -24,7 +24,7 @@ if (event1response == '1') { // keuze van speler is optie 1
             alert(event7);
             alert(lose); // je gaat hier game over
         } else {
-            alert(error);
+            alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
         }
     } else if (event3response == '2') { // keuze van speler is optie 2
     alert(event6);
@@ -39,7 +39,7 @@ if (event1response == '1') { // keuze van speler is optie 1
                 alert(event8);
                 alert(lose); // je gaat hier game over
             } else {
-                alert(error);
+                alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
             }
         } else if (event6response == '2') { // keuze van speler is optie 2
             alert(event12);
@@ -47,41 +47,41 @@ if (event1response == '1') { // keuze van speler is optie 1
             if (event12response == '1') { // keuze van speler is optie 1
                 alert(event13);
                 alert(lose); // je gaat hier game over
-            } else if (event12response == '2') {
+            } else if (event12response == '2') { // keuze van speler is optie 2
                 alert(event14);
                 var event14response = prompt(event14option1 + "\n" + event14option2);
-                if (event14response == '1') {
+                if (event14response == '1') { // keuze van speler is optie 1
                     alert(event15);
                     var event15response = prompt(event15option1 + "\n" + event15option2);
-                    if (event15response == '1') {
+                    if (event15response == '1') { // keuze van speler is optie 1
                         alert(event16);
                         alert(win); // hier win je
-                    } else if (event15response == '2') {
+                    } else if (event15response == '2') { // keuze van speler is optie 2
                         alert(event17);
                         var event17response = prompt(event17option1 + "\n" + event17option2);
-                        if (event17response == '1') {
+                        if (event17response == '1') { // keuze van speler is optie 1
                             alert(event18);
                             alert(lose); // je gaat hier game over
-                        } else if (event17response == '2') {
+                        } else if (event17response == '2') { // keuze van speler is optie 2
                             alert(event19);
                             alert(lose); // je gaat hier game over
                         } else {
-                            alert(error);
+                            alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
                         }
                     } else {
-                        alert(error);
+                        alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
                     }
-                } else if (event14response == '2') {
+                } else if (event14response == '2') { // keuze van speler is optie 2
                     alert(event17);
                     alert(lose); // je gaat hier game over
                 } else {
-                    alert(error);
+                    alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
                 }
             } else {
-                alert(error);
+                alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
             }
         } else {
-            alert(error);
+            alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
         }
     } else {
         alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
