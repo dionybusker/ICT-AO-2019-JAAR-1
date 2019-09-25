@@ -1,6 +1,6 @@
 var error = "Dat is geen geldig antwoord. Om de optie die je wilt doen te kiezen, dan graag een '1' of een '2' invullen.";
-var lose = "Jammer! Je bent game over!";
-var win = "Gefeliciteerd! Je hebt de game gewonnen!"
+var lose = "Jammer! Je bent game over!"; // 9 keer lose
+var win = "Gefeliciteerd! Je hebt de game gewonnen!" // 1 keer win
 
 alert("dit is een game");
 
@@ -13,10 +13,10 @@ if (event1response == '1') { // keuze van speler is optie 1
 } else if (event1response == '2') { // keuze van speler is optie 2
     console.log("Level 2");
     alert(event3);
-    var event3response = prompt(event3option1 + "\n" + event3option2);
+    var event3response = prompt(event3option1 + "\n" + event3option2); // "\n" zorgt voor een nieuwe regel
     if (event3response == '1') { // keuze van speler is optie 1
         alert(event4);
-        var event4response = prompt(event4option1 + "\n" + event4option2);
+        var event4response = prompt(event4option1 + "\n" + event4option2); // "\n" zorgt voor een nieuwe regel
         if (event4response == '1') { // keuze van speler is optie 1
             alert(event5);
             alert(lose); // je gaat hier game over
@@ -30,40 +30,40 @@ if (event1response == '1') { // keuze van speler is optie 1
     alert(event6);
         var event6response = prompt(event6option1 + "\n" + event6option2); // "\n" zorgt voor een nieuwe regel
         if (event6response == '1') { // keuze van speler is optie 1
-            alert(event10);
-            var event10response = prompt(event10option1 + "\n" + event10option2); // "\n" zorgt voor een nieuwe regel
-            if (event10response == '1') { // keuze van speler is optie 1
-                alert(event11);
+            alert(event9);
+            var event9response = prompt(event9option1 + "\n" + event9option2); // "\n" zorgt voor een nieuwe regel
+            if (event9response == '1') { // keuze van speler is optie 1
+                alert(event10);
                 alert(lose); // je gaat hier game over
-            } else if (event10response == "2") { // keuze van speler is optie 1
+            } else if (event9response == "2") { // keuze van speler is optie 1
                 alert(event8);
                 alert(lose); // je gaat hier game over
             } else {
                 alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
             }
         } else if (event6response == '2') { // keuze van speler is optie 2
-            alert(event12);
-            var event12response = prompt(event12option1 + "\n" + event12option2);
-            if (event12response == '1') { // keuze van speler is optie 1
-                alert(event13);
+            alert(event11);
+            var event11response = prompt(event11option1 + "\n" + event11option2); // "\n" zorgt voor een nieuwe regel
+            if (event11response == '1') { // keuze van speler is optie 1
+                alert(event12);
                 alert(lose); // je gaat hier game over
-            } else if (event12response == '2') { // keuze van speler is optie 2
-                alert(event14);
-                var event14response = prompt(event14option1 + "\n" + event14option2);
-                if (event14response == '1') { // keuze van speler is optie 1
-                    alert(event15);
-                    var event15response = prompt(event15option1 + "\n" + event15option2);
-                    if (event15response == '1') { // keuze van speler is optie 1
-                        alert(event16);
+            } else if (event11response == '2') { // keuze van speler is optie 2
+                alert(event13);
+                var event13response = prompt(event13option1 + "\n" + event13option2); // "\n" zorgt voor een nieuwe regel
+                if (event13response == '1') { // keuze van speler is optie 1
+                    alert(event14);
+                    var event14response = prompt(event14option1 + "\n" + event14option2); // "\n" zorgt voor een nieuwe regel
+                    if (event14response == '1') { // keuze van speler is optie 1
+                        alert(event15);
                         alert(win); // hier win je
-                    } else if (event15response == '2') { // keuze van speler is optie 2
-                        alert(event17);
-                        var event17response = prompt(event17option1 + "\n" + event17option2);
-                        if (event17response == '1') { // keuze van speler is optie 1
-                            alert(event18);
+                    } else if (event14response == '2') { // keuze van speler is optie 2
+                        alert(event16);
+                        var event16response = prompt(event16option1 + "\n" + event16option2); // "\n" zorgt voor een nieuwe regel
+                        if (event16response == '1') { // keuze van speler is optie 1
+                            alert(event17);
                             alert(lose); // je gaat hier game over
-                        } else if (event17response == '2') { // keuze van speler is optie 2
-                            alert(event19);
+                        } else if (event16response == '2') { // keuze van speler is optie 2
+                            alert(event18);
                             alert(lose); // je gaat hier game over
                         } else {
                             alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
@@ -71,8 +71,8 @@ if (event1response == '1') { // keuze van speler is optie 1
                     } else {
                         alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
                     }
-                } else if (event14response == '2') { // keuze van speler is optie 2
-                    alert(event17);
+                } else if (event13response == '2') { // keuze van speler is optie 2
+                    alert(event19);
                     alert(lose); // je gaat hier game over
                 } else {
                     alert(error); // er is een ongeldig antwoord gegeven, of er is op enter gedrukt
