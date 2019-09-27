@@ -1,0 +1,17 @@
+/* styling index.html */
+
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+    border: 20px dashed rgb(203, 66, 56);
+    background-color: rgb(238, 233, 214);
+}
+
+.list {
+    list-style-type: none;
+    margin: -25px 0 0 -45px;
+    font-family: Arial;
+    font-size: 25px;
+}
