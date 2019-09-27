@@ -89,7 +89,7 @@ while (!event1valid) {
                         event11valid = false;
                         while (!event11valid) {
                             var event11response = prompt(event11wait);
-                            if (event11response > 10) { // keuze van speler is optie 1
+                            if (event11response > 10) {
                                 console.log("Level 5"); // in de console.log wordt het level weergegeven
                                 event11valid = true;
                                 alert(event12);
