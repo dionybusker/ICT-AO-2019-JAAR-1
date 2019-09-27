@@ -1,5 +1,6 @@
 var welkom = "Welkom in het Laboratorium in Area 51 ½.\nLukt het jou te ontsnappen?";
 var error = "Dat is geen geldig antwoord. Om de optie die je wilt doen te kiezen, dan graag een '1' of een '2' invullen.";
+var errorWait = "Dat is geen geldig antwoord. Vul een getal in.";
 var lose = "Jammer! Je bent game over!"; // 9 keer lose
 var win = "Gefeliciteerd! Je hebt de game gewonnen!"; // 1 keer win
 
@@ -87,14 +88,14 @@ while (!event1valid) {
                         alert(event11);
                         event11valid = false;
                         while (!event11valid) {
-                            var event11response = prompt(event11option1 + "\n" + event11option2); // "\n" zorgt voor een nieuwe regel
-                            if (event11response == '1') { // keuze van speler is optie 1
+                            var event11response = prompt(event11wait);
+                            if (event11response > 10) { // keuze van speler is optie 1
                                 console.log("Level 5"); // in de console.log wordt het level weergegeven
                                 event11valid = true;
                                 alert(event12);
                                 console.log("Jammer, verloren!"); // in de console.log wordt het eind weergegeven
                                 alert(lose); // je gaat hier game over                
-                            } else if (event11response == '2') {
+                            } else if (event11response <= 10) {
                                 console.log("Level 5"); // in de console.log wordt het level weergegeven
                                 event11valid = true;
                                 alert(event13);
@@ -155,7 +156,7 @@ while (!event1valid) {
                                     }
                                 }
                             } else { // event 11
-                                alert(error);
+                                alert(errorWait);
                                 event11valid = false;
                             }
                         }
